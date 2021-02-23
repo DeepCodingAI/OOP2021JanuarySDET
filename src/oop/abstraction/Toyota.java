@@ -1,6 +1,6 @@
 package oop.abstraction;
 
-public class Toyota implements Car {
+public class Toyota implements Car,Vehicle {
 
 	
 	public void start() {
@@ -14,6 +14,18 @@ public class Toyota implements Car {
 	
 	public void carBody() {
 		System.out.println("average technology");
+	}
+
+	
+	public void drive() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+	public void fly() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
